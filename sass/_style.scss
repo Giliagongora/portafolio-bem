@@ -1,0 +1,51 @@
+nav{
+	background-color: $navcol;
+	padding-right: 25%;
+	height: 70px;
+}
+.nav__menu__img{
+	width: 30%;
+	margin-left: 160%;
+	margin-top: 1%;
+}
+.nav__menu__item__link__blue{
+	background-color: $fondo;
+	border: 1px solid $fondo;
+	padding: 0px 10px 0px 10px;
+	border-radius: 28px 28px 28px ;
+	color: white;
+	margin: 2% 0 2% 0 ;
+}
+a.btn-large{
+	background-color: $fondo;
+}
+.portafolio{
+ 	background-color: $fondo;
+ 	padding-bottom: 1%;	
+}
+.portafolio__img__perfil{
+	width: 90%;
+	margin-top: 20%;
+}
+.portafolio__texto__nombre{
+	color:#30B77D;
+}
+.portafolio__texto{
+	color: white;
+}
+.redes{
+	background-color: $fondo;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+}
+.portafolio__texto__btn{
+	background-color: #30B77D;
+	border: 1px solid $fondo;
+	padding: 2%;
+	border-radius: 10px 10px 10px ;
+	color: white;
+}
+
+.redes__soc{
+	display: inline_flex;
+}

@@ -10,16 +10,17 @@
     <!--Import materialize.css-->
     <link type="text/css" href="sass/materialize-src/sass/materialize.scss"  media="screen,projection"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	
 	<header>
 		<nav>
 		    <div class="nav-wrapper">
-		      <a href="#!" class="brand-logo"><img src="img/perfil.png" alt=""></a>
+		      <a href="#!" class="brand-logo"><img class="nav__menu__img" src="img/perfil.png" alt=""></a>
 		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul class="right hide-on-med-and-down" class="nav__menu">
-		        <li class="nav__menu__item"><a class="nav__menu__item__link" href="sass.html"><i class="material-icons left">person</i>PROFILE</a></li>
+		        <li  class="nav__menu__item"><a class="nav__menu__item__link__blue"  href="sass.html"><i class="material-icons left">person</i>PROFILE</a></li>
 		        <li class="nav__menu__item"><a class="nav__menu__item__link" href="badges.html"><i class="material-icons left">stars</i>SKILLS</a></li>
 		        <li class="nav__menu__item"><a class="nav__menu__item__link" href="collapsible.html"><i class="material-icons left">image</i>WORK</a></li>
 		        <li class="nav__menu__item"><a class="nav__menu__item__link" href="mobile.html"><i class="material-icons left">note_add</i>RESUME</a></li>
@@ -39,7 +40,7 @@
 			<div class="row">
 				<div class="col s12 m12 l3 offset-l1">
 					<div class="portafolio__img">
-						<img src="img/perfil.png" alt="">
+						<img class="portafolio__img__perfil" src="img/user.png" alt="">
 					</div>
 				</div>	
 					<div class="col s12 m12 l6 offset-l1 ">
@@ -53,13 +54,33 @@
 							<p class="portafolio__texto__presentacion">
 								Hello Iam Juan Pablo Dela Cruz Web and Graphics Designer from Phillipines. If you have something to be done just call my name and i will be there.
 							</p>
-
+							<a  class="portafolio__texto__btn">HIRE ME</a>
+							<a  href=""></a>
 						</div>
 					</div>
 				
 			</div>
 		</div>
 	</section>
+
+	<section class="redes">
+		<div class="container">
+			<div class="row">
+				<div class="redes">
+					<ul class="redes__soc">
+						<li><a class="redes__soc__face" href=""><img src="img/facebook.png" alt=""></a></li>
+						<li><a class="redes__soc__twi" href=""><img src="img/twitter.png" alt=""></a></li>
+						<li><a class="redes__soc__drib" href=""><img src="img/dribbble.png" alt=""></a></li>
+						<li><a class="redes__soc__googl" href=""><img src="img/google-plus.png" alt=""></a></li>
+						<li><a class="redes__soc__pint" href=""><img src="img/pinterest.png" alt=""></a></li>
+						<li><a class="redes__soc__vk href=""><img src="img/vk.png" alt=""></a></li>
+					</ul>					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
